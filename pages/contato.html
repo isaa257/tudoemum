@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Wagner Cesar Vieira">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<header>
+    <figure>
+        <a href="../index.html"><img src="../images/flor-de-lotus.png" alt="Sumiu" title="Este é o meu logo" width="95px"></a>
+    </figure>
+
+    <section id="Busca">
+        <img src="../images/lupa.png" alt="Sumiu" width="30px"/>
+        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+        <button id="btnBusca">Buscar</button>
+    </section>
+
+    <nav>
+        <a href="../index.html"><button>Home</button></a>
+        <button>Minha vida</button>
+        <button>How-to</button>
+        <button>Contato</button>
+    </nav>
+</header>
+<body>
+    <main class="container">
+        <form action="cadastro.html" method="post">
+            <h1>Contato</h1>
+
+            <fieldset>
+                <legend>Nome</legend>
+                <input type="text" id="nome" name="nome" placeholder="Digite nome completo" required>          
+            </fieldset>
+        
+
+            <fieldset>
+                <legend>E-mail</legend>
+                <input type="email" id="email" name="email" placeholder="Endereço de email" required>          
+            </fieldset>
+
+            <fieldset>
+                <legend>Data Nascimento</legend>
+                <input type="date" id="nascimento" name="nascimento"required>          
+            </fieldset>
+
+            <fieldset>
+                <legend>Telefone</legend>
+                <input type="tel" id="telelfone" name="telefone"required>          
+            </fieldset>
+
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" id="feminino" name="sexo"required> Feminino
+                <input type="radio" id="Masculino" name="sexo"required>   Masculino       
+            </fieldset>
+
+
+            <fieldset>
+                <legend>CPF</legend>
+                <input type="number" id="CPF" name="CPF" placeholder="Número do CPF" required>          
+            </fieldset>
+            
+            </fieldset>
+            <input type="submit" id="botao" name="botao">
+            <input type="reset" id="botao2" name="botao2" value="Limpar">
+        </form>
+                 
+    </main>
+</body>
+
+<footer>
+    <p>Made by Isabelle  &copy;</p>
+</footer>
+</html>
